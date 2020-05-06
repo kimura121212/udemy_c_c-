@@ -10,7 +10,7 @@ void main() {
 	file = fopen("./sample.txt", "r");  // ファイルを読み込み用にオープン
 	if (file == NULL) {                         // オープン失敗時
 		printf("ファイルが開ません\n");        // エラーメッセージ
-		exit(1);                                // 以上終了
+		exit(1);                                // 異常終了
 	}
 	//  ファイルデータを読み込む
 	while (fgets(line, SIZE, file) != NULL) {
