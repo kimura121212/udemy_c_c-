@@ -6,7 +6,7 @@
 void main() {
 	int angle;
 	double rad;
-	printf("�p�x����͂��Ă�������(0�`360):");
+	printf("角度を入力してください(0~360)");
 	scanf("%d", &angle);
 	// 角度をラジアンに変換
 	rad = PI * (double)angle / 180.0;
