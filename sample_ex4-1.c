@@ -12,5 +12,5 @@ void main() {
 	printf("s=%s\n", s);
 	// 文字列の長さ
 	len = strlen(s);
-	printf("������̒����F%d\n", len);
+	printf("文字列の長さ:%d\n", len);
 }
