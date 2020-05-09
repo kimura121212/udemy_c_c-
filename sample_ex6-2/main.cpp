@@ -10,6 +10,8 @@ int main() {
 	CBird* b1, *b2;
 	b1 = new CCrow();
 	b2 = new CChicken();
+	// 抽象クラスはnewできない
+	// b3 = new CBird();
 	b1->sing();
 	b1->fly();
 	b2->sing();
